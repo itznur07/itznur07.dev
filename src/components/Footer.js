@@ -1,8 +1,20 @@
 import { useState } from "react";
 import { FaHeart, FaMoon, FaSun } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { changeTheme } from "../app/reducers/themeSlice";
 
 const Footer = () => {
+  const dispatch = useDispatch();
   const [mode, setMode] = useState(true);
+  const handleDark = () => {
+    setMode(true);
+    dispatch(changeTheme(mode));
+  };
+  const handleWhite = () => {
+    setMode(false);
+    dispatch(changeTheme(mode));
+  };
+
   return (
     <div className='flex md:flex-row items-center justify-between flex-col md:mx-32 md:text-start text-center text-[#94A3B8] py-10'>
       <div>
@@ -15,12 +27,15 @@ const Footer = () => {
       </div>
       <div>
         {mode === false ? (
-          <FaMoon size={24} onClick={() => setMode(true)} className='cursor-pointer' />
+          <FaMoon size={24} onClick={() => handleDark()} className='cursor-pointer' />
         ) : (
-          <FaSun size={24} onClick={() => setMode(false)} className='cursor-pointer animate-spin' />
+          <FaSun
+            size={24}
+            onClick={() => handleWhite()}
+            className='cursor-pointer animate-spin'
+          />
         )}
       </div>
-      
     </div>
   );
 };
