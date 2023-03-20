@@ -13,7 +13,7 @@ const Home = () => {
       {/* profile info card here */}
       <div className='flex flex-col items-center md:space-y-3'>
         <img
-          className='w-36 h-36 rounded-full'
+          className='w-36 h-36 rounded-full border-2 border-white mb-3'
           loading='lazy'
           src='https://avatars.githubusercontent.com/u/76656507?v=4'
           alt='logo.png'
@@ -23,11 +23,11 @@ const Home = () => {
           <TypingAnimation text='Developer' />
         </p>
         <div className='flex items-center md:space-x-5 text-[#94A3B8] cursor-pointer'>
-          <FaGithub size={20} className='hover:text-blue-500' />
-          <FaTwitter size={20} className='hover:text-blue-500' />
-          <FaLinkedin size={20} className='hover:text-blue-500' />
-          <FaMedium size={20} className='hover:text-blue-500' />
-          <FaInstagram size={20} className='hover:text-blue-500' />
+          <FaGithub size={20} className='hover:text-yellow-500' />
+          <FaTwitter size={20} className='hover:text-yellow-500' />
+          <FaLinkedin size={20} className='hover:text-yellow-500' />
+          <FaMedium size={20} className='hover:text-yellow-500' />
+          <FaInstagram size={20} className='hover:text-yellow-500' />
         </div>
       </div>
     </div>
