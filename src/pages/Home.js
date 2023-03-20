@@ -1,10 +1,12 @@
 import React from "react";
 import {
-  FaGithub, FaInstagram,
+  FaGithub,
+  FaInstagram,
   FaLinkedin,
   FaMedium,
   FaTwitter
 } from "react-icons/fa";
+import TypingAnimation from "../components/TypeAnimation";
 
 const Home = () => {
   return (
@@ -19,7 +21,7 @@ const Home = () => {
         />
         <h1 className='text-3xl text-white font-bold'>Mohammad Nuruddin</h1>
         <p className='text-xl text-[#94A3B8] font-medium'>
-          Frontend Developer | Backend | Mobile Apps
+          <TypingAnimation text='Developer'/>
         </p>
         <div className='flex items-center md:space-x-5 text-[#94A3B8] cursor-pointer'>
           <FaGithub size={20} className='hover:text-blue-500' />
