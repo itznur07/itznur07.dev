@@ -2,12 +2,14 @@ import React from "react";
 import {
   SiAndroidstudio,
   SiExpress,
+  SiFirebase,
   SiGithub,
   SiJavascript,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
+  SiRedux,
   SiTailwindcss
 } from "react-icons/si";
 import MentionButton from "../components/MentionButton";
@@ -23,6 +25,8 @@ const Skills = () => {
     { icon: <SiNextdotjs />, name: "Next.JS", lavel: "Junior" },
     { icon: <SiGithub />, name: "Github", lavel: "Advanced" },
     { icon: <SiAndroidstudio />, name: "React Native", lavel: "Junior" },
+    { icon: <SiRedux />, name: "Redux", lavel: "Junior" },
+    { icon: <SiFirebase />, name: "Firebase", lavel: "Junior" },
   ];
 
   return (
@@ -54,7 +58,7 @@ const Skills = () => {
 
 const Card = ({ icon, name, lavel }) => {
   return (
-    <div className='flex items-center justify-between rounded cursor-pointer w-80 px-5 h-20 py-5 bg-[#1d293a] border border-yellow-500 border-opacity-30'>
+    <div className='flex items-center justify-between rounded w-80 px-5 h-20 py-5 bg-[#1d293a] border border-yellow-500 border-opacity-30'>
       <div className={`text-5xl text-yellow-500`}>{icon}</div>
       <div className='space-y-3 text-right'>
         <h1 className='text-xl text-white font-bold'>{name}</h1>

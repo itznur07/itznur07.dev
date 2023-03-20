@@ -6,12 +6,12 @@ const Navigation = () => {
     <div className='flex md:flex-row items-center justify-between flex-col md:mx-32 py-10'>
       {/* logo here */}
       <div>
-        <h1 className='text-white font-bold text-lg'>itznur07.dev</h1>
+        <h1 className='text-white font-bold text-lg'><Link to="/">itznur07.dev</Link></h1>
       </div>
       {/* logo ends here */}
       {/* navlink here */}
       <nav>
-        <ul className='text-md text-white flex items-center md:space-x-10 space-x-5 font-medium cursor-pointer'>
+        <ul className='text-md text-white flex items-center md:space-x-10 space-x-5 font-medium '>
           <Link to='/'>
             <li className="hover:border-b-2 border-yellow-500">Home</li>
           </Link>
