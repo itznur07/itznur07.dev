@@ -13,16 +13,16 @@ const Navigation = () => {
       <nav>
         <ul className='text-md text-white flex items-center md:space-x-10 space-x-5 font-medium cursor-pointer'>
           <Link to='/'>
-            <li>Home</li>
+            <li className="hover:border-b-2 border-yellow-500">Home</li>
           </Link>
           <Link to='/skills'>
-            <li>Skills</li>
+            <li className="hover:border-b-2 border-yellow-500">Skills</li>
           </Link>
           <Link to='/portfolio'>
-            <li>Portfolio</li>
+            <li className="hover:border-b-2 border-yellow-500">Portfolio</li>
           </Link>
           <Link to='/about'>
-            <li>About</li>
+            <li className="hover:border-b-2 border-yellow-500">About</li>
           </Link>
         </ul>
       </nav>
