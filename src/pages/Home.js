@@ -7,7 +7,6 @@ import {
   FaTwitter
 } from "react-icons/fa";
 import TypingAnimation from "../components/TypeAnimation";
-
 const Home = () => {
   return (
     <div className='md:mx-32 flex items-center justify-center h-96 py-64'>
@@ -21,7 +20,7 @@ const Home = () => {
         />
         <h1 className='text-3xl text-white font-bold'>Mohammad Nuruddin</h1>
         <p className='text-xl text-[#94A3B8] font-medium'>
-          <TypingAnimation text='Developer'/>
+          <TypingAnimation text='Developer' />
         </p>
         <div className='flex items-center md:space-x-5 text-[#94A3B8] cursor-pointer'>
           <FaGithub size={20} className='hover:text-blue-500' />
@@ -31,7 +30,6 @@ const Home = () => {
           <FaInstagram size={20} className='hover:text-blue-500' />
         </div>
       </div>
-      {/* profile info card ends here */}
     </div>
   );
 };
