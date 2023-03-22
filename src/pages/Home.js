@@ -32,11 +32,11 @@ const Home = () => {
           alt='logo.png'
         />
         
-        <h1 className={`text-3xl text-[${mode?.text}] font-bold`}>Mohammad Nuruddin</h1>
-        <p className={`text-xl text-[${mode?.optionalColor}] font-medium`}>
+        <h1 className={`md:mt-0 mt-5 text-3xl text-[${mode?.text}] font-bold`}>Mohammad Nuruddin</h1>
+        <p className={`md:mt-0 mt-2 text-xl text-[${mode?.optionalColor}] font-medium`}>
           <TypingAnimation text='Developer' />
         </p>
-        <div className='flex items-center md:space-x-5 text-[#94A3B8] cursor-pointer'>
+        <div className='flex items-center md:space-x-5 space-x-3 md:mt-0 mt-3 text-[#94A3B8] cursor-pointer'>
           <a
             href='https://github.com/itznur07'
             target={"_blank"}

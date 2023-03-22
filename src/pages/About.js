@@ -20,7 +20,7 @@ const About = () => {
             Develop Modern <br /> & Powerful Web Applications & Mobile <br />{" "}
             Application using Javascript Frontend Framework{" "}
           </p>
-          <div className='flex items-center md:space-x-5 text-[#94A3B8] cursor-pointer'>
+          <div className='flex items-center md:space-x-5 space-x-3 text-[#94A3B8] cursor-pointer'>
           <a
             href='https://github.com/itznur07'
             target={"_blank"}
