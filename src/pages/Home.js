@@ -32,8 +32,8 @@ const Home = () => {
           src='https://avatars.githubusercontent.com/u/76656507?v=4'
           alt='logo.png'
         />
-        <h1 className={`text-3xl text-[${mode.text}] font-bold`}>Mohammad Nuruddin</h1>
-        <p className={`text-xl text-[${mode.optionalColor}] font-medium`}>
+        <h1 className={`text-3xl text-[${mode?.text}] font-bold`}>Mohammad Nuruddin</h1>
+        <p className={`text-xl text-[${mode?.optionalColor}] font-medium`}>
           <TypingAnimation text='Developer' />
         </p>
         <div className='flex items-center md:space-x-5 text-[#94A3B8] cursor-pointer'>
@@ -87,7 +87,7 @@ const Home = () => {
         />
         <SiNextdotjs
           size={24}
-          className={`absolute text-[${mode.text}] bottom-72 left-52`}
+          className={`absolute text-[${mode?.text}] bottom-72 left-52`}
         />
         <SiTailwindcss
           size={26}

@@ -31,6 +31,9 @@ const Navigation = () => {
           <Link to='/about'>
             <li className='hover:border-b-2 border-yellow-500'>About</li>
           </Link>
+          <Link to='/resume'>
+            <li className='hover:border-b-2 border-yellow-500'>Resume</li>
+          </Link>
         </ul>
       </nav>
       {/* navlink ends here */}

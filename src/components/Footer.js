@@ -4,7 +4,9 @@ import { useDispatch } from "react-redux";
 import { changeTheme } from "../app/reducers/themeSlice";
 
 const Footer = () => {
+  
   const dispatch = useDispatch();
+
   const [mode, setMode] = useState(true);
   const handleDark = () => {
     setMode(true);
