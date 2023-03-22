@@ -31,9 +31,7 @@ const Navigation = () => {
           <Link to='/about'>
             <li className='hover:border-b-2 border-yellow-500'>About</li>
           </Link>
-          <Link to='/resume'>
-            <li className='hover:border-b-2 border-yellow-500'>Resume</li>
-          </Link>
+            <li className='rounded px-4 py-1.5 bg-yellow-500'><a href="https://drive.google.com/file/d/1ImNylwGYbKjIjaMq7UlpMFPigWhGldtj/view?usp=sharing" target={"_blank"} rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
       {/* navlink ends here */}

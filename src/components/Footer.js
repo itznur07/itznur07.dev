@@ -29,13 +29,18 @@ const Footer = () => {
       </div>
       <div>
         {mode === false ? (
-          <FaMoon size={24} onClick={() => handleDark()} className='cursor-pointer' />
+          <div className="flex items-center space-x-2">
+            <FaMoon size={24} onClick={() => handleDark()} className='cursor-pointer' /> <span>dark</span>
+          </div>
         ) : (
-          <FaSun
+          <div className="flex items-center space-x-2">
+            <FaSun
             size={24}
             onClick={() => handleWhite()}
             className='cursor-pointer animate-spin'
           />
+          <span>light</span>
+          </div>
         )}
       </div>
     </div>
