@@ -23,21 +23,33 @@ const Protfolio = () => {
               <Card
                 name='Developer Portfolio'
                 describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
-                tags={["React", "Tailwind", "Npm"]}
                 repolink='https://github.com/itznur07/m-design-portfolio'
                 livelink='https://m-design-portfolio.vercel.app/'
               />
               <Card
                 name='Pixbay'
                 describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
-                tags={["React", "scss", "Npm"]}
                 repolink='https://github.com/itznur07/Pixabay_Clone_Reactjs_Tailwindcss'
                 livelink='https://gracious-wiles-6398e8.netlify.app/'
               />
               <Card
-                name='Educy'
+                name='Logistics'
                 describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
-                tags={["React", "tailwind", "router"]}
+                repolink='https://github.com/itznur07/edusy'
+                livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
+              />
+              <Card
+                name='Doctor Portal'
+                repolink='https://github.com/itznur07/edusy'
+                livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
+              />
+              <Card
+                name='Agency'
+                repolink='https://github.com/itznur07/edusy'
+                livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
+              />
+              <Card
+                name='Desi Bazar'
                 repolink='https://github.com/itznur07/edusy'
                 livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
               />
@@ -70,7 +82,7 @@ const Card = ({ name, describe, tags, repolink, livelink }) => {
           {name}
         </h1>
         <p
-          className={`text-center text-sm text-[${mode.text}] group-hover:text-black`}
+          className={`text-center text-sm text-[${mode?.text}] group-hover:text-black`}
         >
           {describe}
         </p>
@@ -85,7 +97,7 @@ const Card = ({ name, describe, tags, repolink, livelink }) => {
           </a>
         </span>
         <div className='text-center flex items-center space-x-5 mt-2'>
-          {tags.map((item, i) => (
+          {tags?.map((item, i) => (
             <span
               key={i}
               className={`bg-[${mode.bg}] px-3 py-1 rounded-md text-[${mode.text}]`}

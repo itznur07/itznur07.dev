@@ -1,8 +1,7 @@
 import React from "react";
 import {
   FaGithub,
-  FaInstagram, FaLinkedin, FaMedium,
-  FaTwitter
+  FaInstagram, FaLinkedin, FaMedium, FaTwitter
 } from "react-icons/fa";
 import {
   SiAndroidstudio,
@@ -25,13 +24,14 @@ const Home = () => {
   return (
     <div className='md:mx-32 flex items-center justify-center h-96 py-64'>
       {/* profile info card here */}
-      <div className='flex flex-col items-center md:space-y-3'>
+      <div className='flex flex-col items-center md:space-y-3 '>
         <img
-          className={`w-36 h-36 rounded-full border-2 border-white mb-3`}
+          className={`w-36 h-36 rounded-full border-2 border-white mb-3 `}
           loading='lazy'
           src='https://avatars.githubusercontent.com/u/76656507?v=4'
           alt='logo.png'
         />
+        
         <h1 className={`text-3xl text-[${mode?.text}] font-bold`}>Mohammad Nuruddin</h1>
         <p className={`text-xl text-[${mode?.optionalColor}] font-medium`}>
           <TypingAnimation text='Developer' />
