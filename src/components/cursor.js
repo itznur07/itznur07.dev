@@ -19,7 +19,7 @@ function CustomCursor() {
   return (
     <div
     
-      className='w-5 h-5 absolute border-2 border-yellow-500  rounded-full z-10 pointer-events-none transition ease-linear duration-200 delay-150'
+      className='w-5 h-5 absolute border-2 border-yellow-500  rounded-full z-10 pointer-events-none transition ease-linear duration-200 delay-150 '
       style={{ left: position.x, top: position.y }}
     >
       <div

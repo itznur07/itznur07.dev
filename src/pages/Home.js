@@ -79,44 +79,44 @@ const Home = () => {
       <div>
         <SiJavascript
           size={24}
-          className='absolute text-yellow-500 top-52 left-44'
+          className='absolute text-yellow-500 md:top-52 md:left-44 top-44 left-32'
         />
         <SiReact
           size={28}
-          className='absolute text-blue-500 top-64 left-96 ml-16 animate-spin'
+          className='absolute text-blue-500 md:top-64 top-52 md:left-96 left-72 md:ml-16 animate-spin'
         />
         <SiNextdotjs
           size={24}
-          className={`absolute text-[${mode?.text}] bottom-72 left-52`}
+          className={`absolute text-[${mode?.text}] md:bottom-72 bottom-96 md:left-52`}
         />
         <SiTailwindcss
           size={26}
-          className='absolute text-[#38BDF8] bottom-56 ml-16 left-96'
+          className='absolute text-[#38BDF8] md:bottom-56 bottom-32 md:ml-16 md:left-96'
         />
         <SiRedux
           size={24}
-          className='absolute text-[#38BDF8] bottom-96 ml-16 left-64'
+          className='absolute text-[#38BDF8] md:bottom-96 bottom-96 md:ml-16 md:left-64 left-20'
         />
         {/*  */}
         <SiAndroidstudio
           size={24}
-          className='absolute text-[#5FEAAC] top-52 right-44'
+          className='absolute text-[#5FEAAC] md:top-52 md:right-44'
         />
         <SiNodedotjs
           size={24}
-          className={`absolute text-[#5F9856] top-64 right-96 ml-16`}
+          className={`absolute text-[#5F9856] md:top-64 md:right-96 md:ml-16`}
         />
         <SiExpress
           size={24}
-          className={`absolute text-[${mode?.text}] bottom-72 right-52`}
+          className={`absolute text-[${mode?.text}] md:bottom-72 md:right-52`}
         />
         <SiMongodb
           size={26}
-          className='absolute text-[#00ED64] bottom-56 ml-16 right-96'
+          className='absolute text-[#00ED64] md:bottom-56 md:ml-16 md:right-96'
         />
         <SiFirebase
           size={24}
-          className='absolute text-[#FFCB2D] bottom-96  right-72'
+          className='absolute text-[#FFCB2D] md:bottom-96  md:right-72'
         />
       </div>
     </div>
