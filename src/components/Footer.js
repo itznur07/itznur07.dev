@@ -18,16 +18,16 @@ const Footer = () => {
   };
 
   return (
-    <div className='flex md:flex-row items-center justify-between flex-col md:mx-32 md:text-start text-center text-[#94A3B8] py-10'>
-      <div>
+    <div className='flex md:flex-row items-center justify-between flex-col md:mx-32 md:text-start text-center text-[#94A3B8] py-10 '>
+      <div className="md:space-y-0 space-y-3">
         <h1 className='text-md'>
           © 2022 Mohammad Nuruddin - All rights reserved. Deployed with Vercel.
         </h1>
-        <p className='text-sm flex items-center'>
+        <p className='text-sm flex items-center md:justify-none justify-center'>
           Developed by itznur07 <FaHeart className='ml-2 text-yellow-500' />
         </p>
       </div>
-      <div>
+      <div className="mt-2">
         {mode === false ? (
           <div className="flex items-center space-x-2">
             <FaMoon size={24} onClick={() => handleDark()} className='cursor-pointer' /> <span>dark</span>

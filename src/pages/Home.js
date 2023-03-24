@@ -22,7 +22,7 @@ const Home = () => {
   const { mode } = useSelector((state) => state.theme);
 
   return (
-    <div className='md:mx-32 flex items-center justify-center h-96 py-64'>
+    <div className='md:mx-32 flex items-center justify-center h-96 py-64 overflow-hidden'>
       {/* profile info card here */}
       <div className='flex flex-col items-center md:space-y-3 '>
         <img
