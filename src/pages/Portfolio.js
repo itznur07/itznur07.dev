@@ -11,14 +11,11 @@ const Protfolio = () => {
     <>
       <div className='cotainer mx-auto items-center md:flex-none flex justify-center hidden-none'>
         <div className='md:flex items-center md:justify-between justify-center md:gap-x-10 md:mx-24 h-auto mt-20 md:py-0 py-5'>
-          {/* div 1 */}
           <div className='md:ml-0'>
             <MentionButton name='Portfolio' />
           </div>
-          {/* div 1 */}
-          {/* div 2 */}
+
           <div className='md:space-y-10 md:mt-0 mt-7 md:ml-0'>
-            {/* skill card */}
             <div className='md:flex flex-wrap items-center md:gap-x-10 gap-y-10 md:space-y-0 space-y-5 md:mt-0 mt-10'>
               <Card
                 name='Developer Portfolio'
@@ -55,7 +52,6 @@ const Protfolio = () => {
               />
             </div>
           </div>
-          {/* div 2 */}
         </div>
       </div>
     </>

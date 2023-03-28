@@ -7,14 +7,12 @@ const Navigation = () => {
 
   return (
     <div className='flex md:flex-row items-center justify-between flex-col md:mx-32 py-10'>
-      {/* logo here */}
       <div>
         <h1 className={`text-[${mode.text}] font-bold text-lg`}>
           <Link to='/'>itznur07.dev</Link>
         </h1>
       </div>
-      {/* logo ends here */}
-      {/* navlink here */}
+
       <nav>
         <ul
           className={`text-md text-[${mode.text}] flex items-center md:space-x-10 space-x-5 font-medium`}
@@ -31,10 +29,17 @@ const Navigation = () => {
           <Link to='/about'>
             <li className='hover:border-b-2 border-yellow-500'>About</li>
           </Link>
-            <li className='rounded px-4 py-1.5 bg-yellow-500'><a href="https://drive.google.com/file/d/1ImNylwGYbKjIjaMq7UlpMFPigWhGldtj/view?usp=sharing" target={"_blank"} rel="noreferrer">Resume</a></li>
+          <li className='rounded px-4 py-1.5 bg-yellow-500'>
+            <a
+              href='https://drive.google.com/file/d/1ImNylwGYbKjIjaMq7UlpMFPigWhGldtj/view?usp=sharing'
+              target={"_blank"}
+              rel='noreferrer'
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
-      {/* navlink ends here */}
     </div>
   );
 };
