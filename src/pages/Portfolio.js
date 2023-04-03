@@ -58,11 +58,7 @@ const Protfolio = () => {
   );
 };
 
-/**
- *
- * @param {*} param0
- * @returns
- */
+
 const Card = ({ name, describe, tags, repolink, livelink }) => {
   const { mode } = useSelector((state) => state.theme);
 
