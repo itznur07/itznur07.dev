@@ -30,4 +30,6 @@ function CustomCursor() {
   );
 }
 
+
+// components exprots
 export default CustomCursor;

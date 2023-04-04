@@ -47,4 +47,5 @@ const Footer = () => {
   );
 };
 
+// Module export 
 export default Footer;

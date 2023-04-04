@@ -12,4 +12,6 @@ const Button = ({ name, cstyle }) => {
   );
 };
 
+// componetns export
+
 export default Button;
