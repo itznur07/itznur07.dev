@@ -22,7 +22,7 @@ const Skills = () => {
     { icon: <SiNodedotjs />, name: "Node.Js", lavel: "Junior" },
     { icon: <SiExpress />, name: "Express.js", lavel: "Junior" },
     { icon: <SiMongodb />, name: "MongoDB", lavel: "Junior" },
-    { icon: <SiNextdotjs />, name: "Next.JS", lavel: "Junior" },
+    { icon: <SiNextdotjs />, name: "Next.JS", lavel: "Begainner" },
     { icon: <SiGithub />, name: "Github", lavel: "Advanced" },
     { icon: <SiAndroidstudio />, name: "React Native", lavel: "Junior" },
     { icon: <SiRedux />, name: "Redux", lavel: "Junior" },
