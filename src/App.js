@@ -1,8 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Route, Routes } from "react-router-dom";
-import CustomCursor from "./components/cursor";
+import DownloadButton from "./components/Download";
 import Layout from "./components/Layout";
+import CustomCursor from "./components/cursor";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Protfolio from "./pages/Portfolio";
@@ -22,6 +23,7 @@ const App = () => {
         </Route>
       </Routes>
       <CustomCursor />
+      <DownloadButton />
     </div>
   );
 };
