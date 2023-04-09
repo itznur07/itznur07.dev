@@ -127,5 +127,5 @@ const Home = () => {
   );
 };
 
-// module exports
+// module default exports 
 export default Home;
