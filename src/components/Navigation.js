@@ -31,7 +31,7 @@ const Navigation = () => {
           </Link>
           <li className='rounded px-4 py-1.5 bg-yellow-500'>
             <a
-              href='https://drive.google.com/file/d/1_Hg3hciPuG3gVDOxN5wOaIHQHJC-TabP/view?usp=drive_link'
+              href='https://drive.google.com/file/d/1-n17DQGbrK5KcBjFyuE0iDURW_dfFZVn/view?usp=sharing'
               target={"_blank"}
               rel='noreferrer'
             >
