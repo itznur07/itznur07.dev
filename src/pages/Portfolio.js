@@ -18,7 +18,7 @@ const Protfolio = () => {
           <div className='md:space-y-10 md:mt-0 mt-7 md:ml-0'>
             <div className='md:flex flex-wrap items-center md:gap-x-10 gap-y-10 md:space-y-0 space-y-5 md:mt-0 mt-10'>
               <Card
-                name='Developer Portfolio'
+                name='Edoofy'
                 describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
                 repolink='https://github.com/itznur07/m-design-portfolio'
                 livelink='https://m-design-portfolio.vercel.app/'

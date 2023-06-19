@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 function TypingAnimation({ text }) {
-  const [currentText, setCurrentText] = useState('Full Stack ');
-  
+  const [currentText, setCurrentText] = useState("Full Stack ");
+
   useEffect(() => {
     let i = 0;
     const timer = setInterval(() => {
@@ -12,13 +12,13 @@ function TypingAnimation({ text }) {
     }, 100);
     return () => clearInterval(timer);
   }, [text]);
-  
+
   return (
-    <div className="text-[#94A3B8] font-bold">
+    <div className='text-[#94A3B8] font-bold'>
       {currentText}
-      <span className="animate-ping">|</span>
+      <span className='animate-ping'>|</span>
     </div>
   );
 }
 
-export default TypingAnimation
+export default TypingAnimation;
