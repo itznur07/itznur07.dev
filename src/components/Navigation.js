@@ -6,7 +6,7 @@ const Navigation = () => {
   const { mode } = useSelector((state) => state.theme);
 
   return (
-    <div className='flex md:flex-row items-center justify-between flex-col md:mx-32 py-10'>
+    <div className='flex  md:flex-row items-center justify-between flex-col md:mx-32 py-10'>
       <div>
         <h1 className={`text-[${mode.text}] font-bold text-lg`}>
           <Link to='/'>itznur07.dev</Link>

@@ -19,34 +19,19 @@ const Protfolio = () => {
             <div className='md:flex flex-wrap items-center md:gap-x-10 gap-y-10 md:space-y-0 space-y-5 md:mt-0 mt-10'>
               <Card
                 name='Edoofy'
-                describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
+                describe='Online Educational Platform website Using MERN Stack.'
                 repolink='https://github.com/itznur07/m-design-portfolio'
                 livelink='https://m-design-portfolio.vercel.app/'
               />
               <Card
-                name='Pixbay'
-                describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
+                name='Bistro'
+                describe='Restuarant Type Website Using MERN Stack.'
                 repolink='https://github.com/itznur07/Pixabay_Clone_Reactjs_Tailwindcss'
                 livelink='https://gracious-wiles-6398e8.netlify.app/'
               />
               <Card
-                name='Logistics'
+                name='Magic PlayTime'
                 describe='Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga perspiciatis magni error ipsum ducimus.'
-                repolink='https://github.com/itznur07/edusy'
-                livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
-              />
-              <Card
-                name='Doctor Portal'
-                repolink='https://github.com/itznur07/edusy'
-                livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
-              />
-              <Card
-                name='Agency'
-                repolink='https://github.com/itznur07/edusy'
-                livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
-              />
-              <Card
-                name='Desi Bazar'
                 repolink='https://github.com/itznur07/edusy'
                 livelink='https://edusy-qkziw5nhb-itznur07.vercel.app/'
               />
